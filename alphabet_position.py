@@ -10,5 +10,4 @@ def alphabet_position(text):
         if newString[i] not in alphabet:
             continue
         replaced = replaced + alphabet[newString[i]] + ' '
-        #print(replaced)
     return replaced.strip()
